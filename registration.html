@@ -1,0 +1,90 @@
+<html>
+	<html>
+	<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+	</style>
+<body>
+	<a href="https://www.iiit.ac.in/" >
+	<img src= "iiit.png" width= "90" height = "50"></a>
+	<a  href="https://serc.iiit.ac.in/rdip"  style="float:right;color:blue">RDIP</a>
+	
+<br>
+<br>
+<ul>
+  <li><a href="homepage.html">Home</a></li>
+  <li><a href="registration.html">Registration form</a></li>
+</ul>
+
+<form action="details.html" method="get" >
+<table>
+<tr>
+<td><label><b> First Name :     </b></label></td>
+<td><input type="text"  required></td>
+</tr>
+<tr>
+<td><label><b> Email :     </b></label></td>
+<td><input type="text"  required></td>
+</tr>
+<tr>
+<td><label><b> Phone Number :     </b></label></td>
+<td><input type="text"  required></td>
+</tr>
+<tr>
+<td><label><b>Gender : </b></label></td>
+<td><input type="radio" name="gender" value="male" required>
+<label><b>Male</b></label>
+<input type="radio" name="gender" value="Female">
+<label><b>Female</b></label>
+<input type="radio" name="gender" value="Other">
+<label><b>Other</b></label>
+</td>
+</tr>
+<tr>
+<td><label><b>Reason for RDIP : </b></label></td>
+<td><input type="radio" name="sub"  value="html" required>
+<label><b>HTML</b></label>
+<input type="radio" name="sub"  value="css">
+<label><b>CSS</b></label>
+<input type="radio" name="sub"  value="js">
+<label><b>JavaScript</b></label>
+</td>
+</tr>
+<tr>
+<td><label><b> College :     </b></label></td>
+<td><input type="text" name="clg" id="clg"  required></td>
+</tr>
+<tr>
+<td><input type="checkbox" name="decl" id="decl"  required></td>
+<td><label><b>I declare above details given by me are true.</b></label></td>
+</tr>
+<tr>
+<td><input type="submit" name="submit" ></td>
+<td><input type="reset" name="reset"></td>
+</tr>
+</table>
+</form>
+
+</html>
