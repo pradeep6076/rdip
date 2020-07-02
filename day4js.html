@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").dblclick(function(){
+    $("#hello").fadeToggle();
+  });
+});
+</script>
+<style>
+.button2 {background-color: #008CBA;}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+
+<p id="hello" style="background-color:tomato;">Welcome double click the button to fade out and again double click the button to fade in</p>
+
+<center><button class="button button2"> Double Click to fade in/out</button><br><br> </center>
+
+
+</body>
+</html>
