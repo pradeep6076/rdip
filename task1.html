@@ -1,0 +1,52 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="task1.css"/>
+</head>
+<body>
+<form name="cal">
+<table border=1>
+<tr>
+<td colspan="3"><input type="text" name="ans"  id="display" /></td>
+
+</tr>
+<tr>
+<td><input type="button" name="btn1" value="7" onclick="cals(btn1.value)"/></td>
+<td><input type="button" name="btn2" value="8" onclick="cals(btn2.value)"/></td>
+<td><input type="button" name="btn3" value="9" onclick="cals(btn3.value)"/></td>
+<td><input type="button" name="btn4" value="/" onclick="operation('div')"/><br></td>
+</tr>
+<tr>
+<td><input type="button" name="btn5" value="4" onclick="cals(btn5.value)" /></td>
+<td><input type="button" name="btn6" value="5" onclick="cals(btn6.value)" /></td>
+<td><input type="button" name="btn7" value="6" onclick="cals(btn7.value)" /></td>
+<td><input type="button" name="btn8" value="*" onclick="operation('mul')" /><br></td>
+</tr>
+<tr><td>
+<input type="button" name="btn9" value="1" onclick="cals(btn9.value)" /></td>
+<td><input type="button" name="btn10" value="2" onclick="cals(btn10.value)" /></td>
+<td><input type="button" name="btn11" value="3" onclick="cals(btn11.value)" /></td>
+<td><input type="button" name="btn12" value="-" onclick="operation('minus')" /><br>
+</td></tr>
+<tr><td>
+<input type="button" name="btn13" value="." onclick="cals(btn13.value)" /></td>
+<td><input type="button" name="btn16" value="0" onclick="cals(btn16.value)" /></td>
+<td><input type="button" name="btn14" value="%" onclick="operation('percent')" /></td>
+<td><input type="button" name="btn15" value="abs" onclick="abs()" />
+
+</td>
+</tr>
+<tr><td>
+<input type="button" name="btn17" value="+" onclick="operation('add')" /></td>
+<td><input type="button" name="btn18" value="sqrt" onclick="sqrts()" /></td>
+<td><input type="button" name="btn19" value="=" onclick="calu()" /></td>
+<td><input type="button" name="clear" value="ac" onclick="caln()" /><br></td>
+</tr>
+
+
+
+</table>
+</form>
+<script src="task.js"></script>
+</body>
+</html>
